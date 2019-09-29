@@ -3,6 +3,6 @@ class Character < ActiveRecord::Base
   has_many :shows, through: :actors
   
   def say_that_thing_you_say
-    self.
+    "#{self.name} always says: #{self.catchphrase}"
   end
 end
