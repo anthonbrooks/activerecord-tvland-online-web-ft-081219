@@ -1,0 +1,1 @@
+class day_and_genre_and_season_to_shows < ActiveRecord::Migration[5.1]
